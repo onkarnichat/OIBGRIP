@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+    background: linear-gradient(to right, #000428  0%, #0260b3 100%);
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border: 4px solid black;
+    box-shadow: 4px 4px 10px black
+}
+.navbar ul li{
+    margin: 5rem;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 2.5rem;
+}
+.navbar ul li a:hover{
+    background: linear-gradient(to bottom, #000428  0%, #6fb4f0 100%);
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    align-items: center;
+}
+.main-body img{
+    height: 200px;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.main-body h1{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
+}
+.main-body h2,h3{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    padding: 3px;
+}
+.main-body button{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px black;
+    color: blanchedalmond;
+    background: linear-gradient(to right, #000428  0%, #0260b3 100%);
+}
+.main-body button:hover
+{
+    background: linear-gradient(to left, #000428  0%, #0260b3 100%);
+}
+#heading4
+{
+    
+    width:fit-content;
+    margin: 10px auto;
+    font-size: 3.5rem;
+    color: maroon;
+    text-shadow: 3px 3px 3px rgb(192, 212, 12);
+}
+
+form
+{
+
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    border: 3px solid violet;
+    border-radius: 30px;
+    width: 80%;
+    padding: 14px;
+    margin: 13px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+form textarea
+{
+    background-color: thistle;
+    width: 90%;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+#submit
+{
+    width: 30%;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+#submit:hover
+{
+    background-color: rgb(245, 42, 6);
+}
+
+.contact::before
+{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to left, #000428  0%, #0260b3 100%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#copy
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.intro-page{
+    display: flex;
+    background: linear-gradient(to right, #000428  0%, #0260b3 100%);
+}
+.intro-page table{
+    padding: 1rem;
+    margin: 3rem;
+}
+.intro-page table tr{
+    margin: 1rem;
+    height: 30px;
+    text-align: left;
+}
+.intro-page table tr td,th{
+    font-size: 2rem;
+    margin: 1rem;
+    width: 75%;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+.intro-page h1{
+    width: fit-content;
+    margin: 16rem auto;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+.logo{
+    margin:2rem 1rem;
+    color: white;
+    padding: 3px;
+    border-radius: 1rem;
+    text-shadow: 4px 4px 8px black;
+}
+.intro-page h1 a{
+    text-decoration: none;
+}
+.logo:hover{
+    color: rgb(238, 107, 162);
+}
+.skill-page{
+    display: flex;
+    background: linear-gradient(to right, #000428  0%, #0260b3 100%);
+    width: 100%;
+}
+.container{
+    height: 22px;
+    border: 2px solid red;
+    border-radius: 2rem;
+    margin: 1rem 2rem;
+    width: 90%;
+}
+.box-1{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #cc0066 0%, #ff66cc 100%);
+    border-radius: 2rem;
+    position: relative;
+    animation-name: box1;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+.box-2{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #cc0066 0%, #ff66cc 100%);
+    border-radius: 2rem;
+    position: relative;
+    animation-name: box2;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+.box-3{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #cc0066 0%, #ff66cc 100%);
+    border-radius: 2rem;
+    position: relative;
+    animation-name: box3;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+.box-4{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #cc0066 0%, #ff66cc 100%);
+    border-radius: 2rem;
+    position: relative;
+    animation-name: box4;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+.box-5{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #cc0066 0%, #ff66cc 100%);
+    border-radius: 2rem;
+    position: relative;
+    animation-name: box5;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes box1 {
+    form{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+@keyframes box2 {
+    form{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes box3 {
+    form{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+@keyframes box4 {
+    form{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+@keyframes box5 {
+    form{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+.skill-body{
+    width: 77%;
+}
+.skill-body h1{
+    margin: 1rem 2rem;
+    color: blanchedalmond;
+    text-shadow: 4px 4px 8px black;
+    
+}
+
+.box{
+    margin: 4rem;
+    display: block;
+    width:100%;
+}
+
+.p-font{
+    margin: 2rem 2rem;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+    border: 4px solid black;
+    box-shadow: 4px 4px 10px black;
+    padding: 3rem;
+    background: linear-gradient(to top right, #cc0000 0%, #ff33cc 100%);
+    transition: transform 0.5s;
+}
+.p-font:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
